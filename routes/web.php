@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function () {
-    return view('welcome');
-});
-
 Route::get('/masuk', function () {
-    return view('home');
+    return view('welcome');
 });
